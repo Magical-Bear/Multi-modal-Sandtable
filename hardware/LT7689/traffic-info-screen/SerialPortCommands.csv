@@ -1,0 +1,32 @@
+Page,WidgetName,Name    ,Header,Length,Cmd,Addr,Data,CRC
+-,SystemFunction,Switch Page,5AA5,07,10,7000,0000,FF03
+-,SystemFunction,Brightness CTRL,5AA5,07,10,7001,003F,EED3
+-,SystemFunction,Year,5AA5,07,10,7002,0019,9F09
+-,SystemFunction,Month,5AA5,07,10,7003,0002,8EC2
+-,SystemFunction,Day,5AA5,07,10,7004,0015,7F0D
+-,SystemFunction,Hour,5AA5,07,10,7005,0012,6F0F
+-,SystemFunction,Minute,5AA5,07,10,7006,0014,1F0D
+-,SystemFunction,Second,5AA5,07,10,7007,0038,4F10
+-,SystemFunction,Refresh time,5AA5,07,10,7008,0000,7EC1
+-,SystemFunction,Play music,5AA5,07,10,700A,0000,DF01
+-,SystemFunction,Volume CTRL,5AA5,07,10,700B,000A,0EC6
+-,SystemFunction,Open pop_window,5AA5,07,10,700D,0000,6EC0
+-,SystemFunction,Auto-dimming,5AA5,07,10,700E,0001,5F00
+-,SystemFunction,Dimming level,5AA5,07,10,700F,003F,8F10
+-,SystemFunction,Time to enter sleep,5AA5,07,10,7010,0005,3EC5
+-,SystemFunction,Multi-language,5AA5,07,10,703F,0000,CF0F
+Page0,icon_0,icon_0,5AA5,07,10,001E,0000,85C5
+Page0,icon_1,icon_1,5AA5,07,10,001F,0000,D405
+Page0,icon_2,icon_2,5AA5,07,10,0020,0000,E409
+Page0,icon_3,icon_3,5AA5,07,10,0021,0000,B5C9
+Page0,icon_4,icon_4,5AA5,07,10,0022,0000,45C9
+Page0,icon_5,icon_5,5AA5,07,10,0023,0000,1409
+Page0,icon_6,icon_6,5AA5,07,10,0024,0000,A5C8
+Page0,icon_7,icon_7,5AA5,07,10,0025,0000,F408
+Page0,icon_8,icon_8,5AA5,07,10,0026,0000,0408
+Page0,icon_9,icon_9,5AA5,07,10,0027,0000,55C8
+Page0,icon_10,icon_10,5AA5,07,10,0028,0000,65CB
+Page0,icon_11,icon_11,5AA5,07,10,0029,0000,340B
+Page0,icon_12,icon_12,5AA5,07,10,002A,0000,C40B
+Page0,icon_13,icon_13,5AA5,07,10,002B,0000,95CB
+Page0,label_0,label_0,5AA5,3f,10,002C,2020B9E3D1CFB4F3B5C0D3D0C1BDC1BEB9ABBDBBB3B5A3ACCEF7D4B4B4F3B5C0D3B5BCB7A3ACCDA3B3B5B3A1C2FAC7EBD7A2D2E2D4CBD0D00000,1594

@@ -1,0 +1,25 @@
+﻿Page:Page0000,0x0000,Page0000,0x0000,Page0000,0x0000,Page0000,0x0000,0000.jpg;RGBColor(146,225,240);label_9;Disable;0;0;Disable;
+RTC_0:0xFFFF,2,223,86,570,30,0070.png,0083.png,YY/MM/DD/HH:MM:SS,RTC_0;
+button_0:50,370,130,70,0x0020,,,,button_0,Enable,Disable,0x0000,
+button_1:55,465,130,70,0x0021,,,,button_1,Enable,Disable,0x0000,
+button_2:230,370,130,70,0x0022,,,,button_2,Enable,Disable,0x0000,
+button_3:230,465,130,70,0x0023,,,,button_3,Enable,Disable,0x0000,
+button_4:405,370,130,70,0x0024,,,,button_4,Enable,Disable,0x0000,
+button_5:405,465,130,70,0x0025,,,,button_5,Enable,Disable,0x0000,
+button_6:580,370,130,70,0x0026,,,,button_6,Enable,Disable,0x0000,
+button_7:580,465,130,70,0x0027,,,,button_7,Enable,Disable,0x0000,
+icon_0:0xFFFF,2,0x001E,2,165,160,102,102,0016_红灯.png,0018_绿灯.png,,,0,2,icon_0,Disable;
+icon_1:0xFFFF,2,0x001F,2,440,160,102,102,0016_红灯.png,,,,0,2,icon_1,Disable;
+icon_2:0xFFFF,2,0x0020,2,695,160,102,102,0016_红灯.png,,,,0,2,icon_2,Disable;
+icon_3:0xFFFF,2,0x0021,2,270,220,42,42,0019_数字0 .png,0059_数字40.png,,,0,40,icon_3,Disable;
+icon_4:0xFFFF,2,0x0022,2,545,220,42,42,0019_数字0 .png,0059_数字40.png,,,0,40,icon_4,Disable;
+icon_5:0xFFFF,2,0x0023,2,800,220,42,42,0019_数字0 .png,0059_数字40.png,,,0,40,icon_5,Disable;
+icon_6:0xFFFF,2,0x0024,2,55,380,126,51,0000_0号路灯关.png,0001_0号路灯开.png,,,0,1,icon_6,Disable;
+icon_7:0xFFFF,2,0x0025,2,230,380,126,51,0004_2号路灯关.png,0005_2号路灯开.png,,,0,1,icon_7,Disable;
+icon_8:0xFFFF,2,0x0026,2,405,380,126,51,0008_4号路灯关.png,0009_4号路灯开.png,,,0,1,icon_8,Disable;
+icon_9:0xFFFF,2,0x0027,2,580,380,126,51,0012_6号路灯关.png,0013_6号路灯开.png,,,0,1,icon_9,Disable;
+icon_10:0xFFFF,2,0x0028,2,55,475,126,51,0002_1号路灯关.png,0003_1号路灯开.png,,,0,1,icon_10,Disable;
+icon_11:0xFFFF,2,0x0029,2,230,475,126,51,0006_3号路灯关.png,0007_3号路灯开.png,,,0,1,icon_11,Disable;
+icon_12:0xFFFF,2,0x002A,2,405,475,126,51,0010_5号路灯关.png,0011_5号路灯开.png,,,0,1,icon_12,Disable;
+icon_13:0xFFFF,2,0x002B,2,580,475,126,51,0014_灯带关.png,0015_灯带开.png,,,0,1,icon_13,Disable;
+label_0:0x002C,40,793,408,193,160,27,32,5,1,3,0,0xD3D3D3,0x00557F,*Hex:2020E5B9BFE4B8A5E5A4A7E98193E69C89E4B8A4E8BE86E585ACE4BAA4E8BDA6EFBC8CE8A5BFE6BA90E5A4A7E98193E68BA5E68CA4EFBC8CE5819CE8BDA6E59CBAE6BBA1E8AFB7E6B3A8E6848FE8BF90E8A18C,0xFFFF,label_0,Disable,0;

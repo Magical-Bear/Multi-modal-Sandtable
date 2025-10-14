@@ -1,0 +1,193 @@
+﻿2025/02/17 18:31:30
+Start to make bin...
+ndl_Ani_number:0
+Get UI message
+
+Get page widget data...
+Page_Number:1
+
+Page 0 backImageW.H = 1025, 600
+page_cfg_name: D:/EmbedSoftwareRelevants/projects/sandtable_c107/screen/screen_projects/pms/调试/调试/Plugin/Page0000.cfg
+Page picture Name: 0000.jpg
+Page color: RGBColor(146,225,240)
+Page User Name: label_9
+Make Page_para_all.bin
+
+Font_Number:7
+Scan fontbin: D:/EmbedSoftwareRelevants/projects/sandtable_c107/screen/screen_projects/pms/调试/调试/FontBin/02_Font-Ë¼Ô´ºÚÌå³£¹æ27x32_2bit.bin ...
+Scan fontbin: D:/EmbedSoftwareRelevants/projects/sandtable_c107/screen/screen_projects/pms/调试/调试/FontBin/05_Font-GBK_Ë¼Ô´ºÚÌå³£¹æ27x32_2bit.bin ...
+Scan fontbin: D:/EmbedSoftwareRelevants/projects/sandtable_c107/screen/screen_projects/pms/调试/调试/FontBin/06_Font-GBK_Ë¼Ô´ºÚÌå³£¹æ40x48_2bit.bin ...
+Make Font_all.bin
+
+Make Label MultiLanguage bin...
+MultiLang_Msg_Addr:0x01234D5D
+lang_num = 1
+
+
+
+Page_Number: 1
+
+Picture list----
+0000.bmp
+Picture list----
+Page0: 0000.bmp
+Scan image:0000.bmp ...
+
+Make Picture_all.bin
+
+Icon_number: 102
+needle Icon_number: 0
+Page0: rProgress_0:, the Icon's firstImage or lastImage is missing
+Page0: rProgress_1:, the Icon's firstImage or lastImage is missing
+Scan icon: 0000_0004_sunny.png ...
+Scan icon: 0001_cloudy.png ...
+Scan icon: 0002_0001_lighting.png ...
+Scan icon: 0003_0003_snowy.png ...
+Scan icon: 0004_0002_rainy.png ...
+Scan icon: 0019_close (1).png ...
+Scan icon: 0020_close (2).png ...
+The icon 21 does not exist!
+
+The icon 22 does not exist!
+
+The icon 23 does not exist!
+
+The icon 24 does not exist!
+
+The icon 25 does not exist!
+
+The icon 26 does not exist!
+
+The icon 27 does not exist!
+
+The icon 28 does not exist!
+
+The icon 29 does not exist!
+
+The icon 30 does not exist!
+
+The icon 31 does not exist!
+
+The icon 32 does not exist!
+
+The icon 33 does not exist!
+
+The icon 34 does not exist!
+
+The icon 35 does not exist!
+
+The icon 36 does not exist!
+
+The icon 37 does not exist!
+
+The icon 38 does not exist!
+
+The icon 39 does not exist!
+
+The icon 40 does not exist!
+
+The icon 41 does not exist!
+
+The icon 42 does not exist!
+
+The icon 43 does not exist!
+
+The icon 44 does not exist!
+
+The icon 45 does not exist!
+
+The icon 46 does not exist!
+
+The icon 47 does not exist!
+
+The icon 48 does not exist!
+
+The icon 49 does not exist!
+
+The icon 50 does not exist!
+
+The icon 51 does not exist!
+
+The icon 52 does not exist!
+
+The icon 53 does not exist!
+
+The icon 54 does not exist!
+
+The icon 55 does not exist!
+
+The icon 57 does not exist!
+
+The icon 59 does not exist!
+
+The icon 60 does not exist!
+
+The icon 61 does not exist!
+
+The icon 62 does not exist!
+
+The icon 63 does not exist!
+
+The icon 64 does not exist!
+
+The icon 65 does not exist!
+
+The icon 66 does not exist!
+
+The icon 67 does not exist!
+
+The icon 68 does not exist!
+
+The icon 69 does not exist!
+
+Scan icon: 0070.png ...
+Scan icon: 0071.png ...
+Scan icon: 0072.png ...
+Scan icon: 0073.png ...
+Scan icon: 0074.png ...
+Scan icon: 0075.png ...
+Scan icon: 0076.png ...
+Scan icon: 0077.png ...
+Scan icon: 0078.png ...
+Scan icon: 0079.png ...
+Scan icon: 0080.png ...
+Scan icon: 0081.png ...
+Scan icon: 0082.png ...
+Scan icon: 0083.png ...
+The icon 84 does not exist!
+
+The icon 85 does not exist!
+
+The icon 86 does not exist!
+
+The icon 87 does not exist!
+
+The icon 88 does not exist!
+
+The icon 89 does not exist!
+
+The icon 90 does not exist!
+
+The icon 91 does not exist!
+
+The icon 92 does not exist!
+
+The icon 93 does not exist!
+
+The icon 94 does not exist!
+
+The icon 95 does not exist!
+
+The icon 96 does not exist!
+
+The icon 97 does not exist!
+
+The icon 98 does not exist!
+
+The icon 99 does not exist!
+
+Scan icon: 0100.png ...
+Scan icon: 0101.png ...
+Make icon_all.bin
+
+Make UartTFT-II_Flash.bin

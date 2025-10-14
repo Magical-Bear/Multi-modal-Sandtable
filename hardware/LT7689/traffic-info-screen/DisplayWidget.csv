@@ -1,0 +1,17 @@
+PageID,WidgetName,Name    ,WriteAddr,Length,ParameterAddr,Length
+0,RTC_0,RTC_0, , ,0xFFFF,9
+0,icon_0,icon_0,0x001E,2,0xFFFF,14
+0,icon_1,icon_1,0x001F,2,0xFFFF,14
+0,icon_2,icon_2,0x0020,2,0xFFFF,14
+0,icon_3,icon_3,0x0021,2,0xFFFF,14
+0,icon_4,icon_4,0x0022,2,0xFFFF,14
+0,icon_5,icon_5,0x0023,2,0xFFFF,14
+0,icon_6,icon_6,0x0024,2,0xFFFF,14
+0,icon_7,icon_7,0x0025,2,0xFFFF,14
+0,icon_8,icon_8,0x0026,2,0xFFFF,14
+0,icon_9,icon_9,0x0027,2,0xFFFF,14
+0,icon_10,icon_10,0x0028,2,0xFFFF,14
+0,icon_11,icon_11,0x0029,2,0xFFFF,14
+0,icon_12,icon_12,0x002A,2,0xFFFF,14
+0,icon_13,icon_13,0x002B,2,0xFFFF,14
+0,label_0,label_0,0x002C,40,0xFFFF,24,1
