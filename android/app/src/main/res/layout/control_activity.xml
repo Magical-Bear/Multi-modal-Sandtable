@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/control_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="道闸开关："
+                android:textColor="#5172B3"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spinner_rotate"
+                style="@style/SpinnerStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:entries="@array/rotation" />
+            <Button
+                android:id="@+id/button_rotate"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="确定"
+                android:textSize="20dp"
+                android:layout_marginLeft="12dp" />
+        </LinearLayout>
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交通灯控制："
+            android:textColor="#5172B3"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+            android:id="@+id/spinner_redlight"
+            style="@style/SpinnerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/redlight" />
+            <Spinner
+            android:id="@+id/spinner_redgreen"
+            style="@style/SpinnerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/redgreenlight" />
+             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView_prompt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="设置红绿亮灯时长(s):"
+                    android:textColor="#5172B3"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="40dp"/>
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入数值(1~100)"
+                    android:inputType="number"
+                   />
+
+                <Button
+                    android:id="@+id/buttonSend"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:text="确定"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="12dp" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

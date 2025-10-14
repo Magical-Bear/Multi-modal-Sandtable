@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">锦城智慧物流</string>
+    <string-array name="destinations_array">
+        <item>物流中心(00)</item>
+        <item>和平大楼(01)</item>
+        <item>图书馆(02)</item>
+        <item>忠孝大楼(03)</item>
+        <item>仁爱大楼(04)</item>
+        <item>信义大楼(05)</item>
+        <item>运动场(06)</item>
+    </string-array>
+    <string-array name="redlight">
+        <item>红绿灯0</item>
+        <item>红绿灯1</item>
+        <item>红绿灯2</item>
+        <item>红绿灯3</item>
+        <item>红绿灯4</item>
+
+    </string-array>
+
+    <string-array name="redgreenlight">-->
+        <item>红灯亮</item>-->
+       <item>绿灯亮</item>-->
+        </string-array>-->
+
+    <string-array name="rotation">
+        <item>道闸1</item>
+        <item>道闸2</item>
+        <item>道闸3</item>
+    </string-array>
+</resources>

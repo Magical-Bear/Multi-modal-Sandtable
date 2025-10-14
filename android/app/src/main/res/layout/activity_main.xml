@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dingwei"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/textViewCar01"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="8pt"
+            android:text="小车位置待获取..."
+            android:textColor="#FF3700B3"
+            android:padding="15pt"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="25dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/car"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/textViewCar02"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="运行状态待获取..."
+            android:textSize="8pt"
+            android:textColor="#FF3700B3"
+            android:padding="10pt"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/task"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/textViewTaskStatus"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="任务状态：待取货"
+            android:textSize="8pt"
+            android:textColor="#000fff"
+            android:padding="15pt"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:text="进入控制页"
+        android:textSize="8pt"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Spinner
+            android:id="@+id/spinnerDestinations"
+            style="@style/SpinnerStyle"
+            android:layout_width="5pt"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:entries="@array/destinations_array" />
+
+        <Button
+            android:id="@+id/buttonSendDestination"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/car"
+            android:text="发送目的地"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
